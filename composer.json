@@ -1,12 +1,12 @@
 {
-    "name": "hyperf/component-creater",
+    "name": "hyperf/component-creator",
     "type": "project",
     "license": "MIT",
     "keywords": [
         "php",
         "hyperf"
     ],
-    "description": "Hyperf Component Creater.",
+    "description": "Hyperf Component Creator.",
     "autoload": {
         "psr-4": {
             "Installer\\": "installer/"

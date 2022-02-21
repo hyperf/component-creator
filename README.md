@@ -1,5 +1,5 @@
-# component-creater
+# component-creator
 
 ```
-composer create-project hyperf/component-creater
+composer create-project hyperf/component-creator
 ```
