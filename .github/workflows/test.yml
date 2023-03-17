@@ -3,8 +3,8 @@ name: PHPUnit
 on: [ push, pull_request ]
 
 env:
-  SWOOLE_VERSION: '5.0.0'
-  SWOW_VERSION: 'develop'
+  SWOOLE_VERSION: '5.0.2'
+  SWOW_VERSION: 'v1.2.0'
 
 jobs:
   ci:
@@ -54,7 +54,7 @@ jobs:
           cd swow/ext || exit
 
           phpize
-          ./configure --enable-debug
+          ./configure --enable-swow --enable-swow-ssl --enable-swow-curl
           make -j "$(nproc)"
           sudo make install
           sudo sh -c "echo extension=swow > /etc/php/${{ matrix.php-version }}/cli/conf.d/swow.ini"
