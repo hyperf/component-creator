@@ -12,10 +12,10 @@ declare(strict_types=1);
 return [
     'packages' => [
         'hyperf/framework' => [
-            'version' => '3.0.*',
+            'version' => '3.1.*',
         ],
         'hyperf/di' => [
-            'version' => '3.0.*',
+            'version' => '3.1.*',
         ],
     ],
     'require-dev' => [
