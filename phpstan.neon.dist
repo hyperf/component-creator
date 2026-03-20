@@ -1,0 +1,11 @@
+parameters:
+  level: 0
+  paths:
+    - src
+  reportUnmatchedIgnoredErrors: false
+  parallel:
+    jobSize: 20
+    maximumNumberOfProcesses: 32
+    minimumNumberOfJobsPerProcess: 2
+  ignoreErrors:
+    - '#Unsafe usage of new static#'
